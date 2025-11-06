@@ -1,0 +1,40 @@
+ <html>
+    <head>
+     <title>Apps</title>
+    </head>
+    <body>
+     <script>
+        var choice=prompt("Welcome to perimeter Calculator. /n Please enter your choice. /n 1. Perimeter of rectangle. /n 2. Perimeter of triangle. /n 3. Perimeter of Circle. /n 4. Perimeter of pararellogram.")
+
+if(choice=="1") {
+    var l=prompt('Enter the length')
+    var b=prompt('Enter the breadth')
+    var result=Number(l)+Number(b)+Number(l)+Number(b)
+    alert('The perimeter is '+result)
+}
+if(choice=="2"){
+    var h=prompt('Enter the height')
+    var b=prompt('Enter the base')
+    var ab=prompt('Enter the legs')
+    var result=Number(h)+Number(b)+Number(ab)
+    alert('The perimeter is'+result)
+}
+if(choice=="3"){
+    var r=prompt('Enter the radius')
+    var result="3.14"*Number(r)
+     alert('The perimeter is'+result)
+}
+if(choice=="4"){
+    var h=prompt('Enter the height')
+    var cb=prompt('Enter the coressponding base')
+    var result=Number(h)+Number(cb)+Number(h)+Number(cb)
+    alert('The perimeter is'+result)
+}
+
+     </script>
+    </body>
+</html>
+
+
+
+
